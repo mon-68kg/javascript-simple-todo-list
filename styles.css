@@ -1,0 +1,77 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+}
+.main {
+    background-color: #B2FF59;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 400px 100px 400px;
+    padding: 30px 0px 60px 0px;
+}
+.title {
+    color: black;
+    margin: 30px 0px 30px 0px;
+    font-size: 2em;
+
+}
+#new-task {
+    background-color: #B2FF59;
+    border-style: none none solid none;
+    border-color: rgb(59, 59, 59);
+    padding: 8px;
+    color: black;
+}
+#add-btn {
+    padding: 8px;
+    border: none;
+    border-top-right-radius: 10px;
+    background-color: #01BFA5;
+}
+::placeholder {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    opacity: 1;
+}
+#new-task:focus {
+    color: black;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-top-left-radius: 10px;
+
+}
+#new-task:focus::placeholder {
+    color: transparent;
+}
+.counter {
+    font-size: .9em;
+    padding: 10px 0px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid rgb(59, 59, 59);
+    border-style: none none solid none;
+}
+.task {
+    display: flex;
+    background-color: white;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+.delete {
+    border-style: none solid none none;
+    border-color: rgb(59, 59, 59);
+    background-color: #01BFA5;
+}
+.complete {
+    background-color: #01BFA5;
+    border: none;
+    border-top-right-radius: 10px
+}
+.task-name {
+    padding: 10px;
+    flex-grow: 1;
+}
